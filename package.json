@@ -1,0 +1,26 @@
+{
+  "name": "appsignal-js-hetzner",
+  "version": "1.0.0",
+  "description": "AppSignal Node.js Hetzner Demo",
+  "main": "index.js",
+  "scripts": {
+    "server": "node --require ./appsignal.cjs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukiccd/appsignal-js-hetzner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lukiccd/appsignal-js-hetzner/issues"
+  },
+  "homepage": "https://github.com/lukiccd/appsignal-js-hetzner#readme",
+  "dependencies": {
+    "@appsignal/nodejs": "^3.8.0",
+    "express": "^5.2.1",
+    "pm2": "^6.0.14"
+  }
+}
